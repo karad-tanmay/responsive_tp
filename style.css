@@ -1,0 +1,169 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #d9d9d9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+section .nav-bar{
+    width: 120px;
+    background-color: #b4b4b4;
+    border: solid 1px #b4b4b4;
+    border-radius: 10px;
+}
+
+section .nav-bar .title{
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+}
+
+section .nav-bar .profile-view img{
+    padding: 10px;
+    height: 100px;
+}
+
+section .nav-bar .profile-view h5{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+section .nav-bar .profile-view h6{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+
+section .nav-bar .home{
+    color: white;
+    background-color: #657179;
+    margin: 10px;
+    text-align: center;
+    border: solid 2px #657179;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    height: 30px;
+}
+
+section .nav-bar .nav-opt{
+    color: white;
+    margin: 20px 10px;
+    text-align: center;
+    border: solid 2px #657179;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 12px;
+    height: 30px;
+    align-content: center;
+}
+
+section .nav-bar .log-out{
+    color: white;
+    background-color: #657179;
+    margin: 10px;
+    text-align: center;
+    border: solid 2px #657179;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    height: 30px;
+    align-content: center;
+}
+
+section .content-sec{
+    margin: 30px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 30px;
+    background-color: white;
+}
+
+section .content-sec .sec{
+    display: flex;
+    background-color: #b4b4b4;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    color: white;
+    justify-content: space-between;
+}
+
+section .content-sec .sec h2{
+    align-content: center;
+    vertical-align: middle;
+    margin: 0 20px;
+}
+
+section .content-sec .sec .view-sec{
+    background-color: #657179;
+    text-align: center;
+    border: solid 2px #657179;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    height: 30px;
+    width: 100px;
+    align-content: center;
+    align-self: center;
+}
+
+footer{
+    width: 100%;
+    background-color: #657179;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    align-content: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a img{
+    height: 15px;
+}
+
+@media only screen and (max-width: 819px){
+    section{
+        display: block;
+    }
+
+    section .nav-bar{
+        width: 100%;
+    }
+
+    section .nav-bar .profile-view img{
+        display: block;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    section .content-sec{
+        margin: 20px 0;
+        padding: 15px 0;
+    }
+
+    section .content-sec .sec{
+        display: block;
+        margin: 15px 5px;
+    }
+
+    footer{
+        padding: 15px 0;
+    }
+}
