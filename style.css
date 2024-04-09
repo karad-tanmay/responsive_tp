@@ -56,6 +56,7 @@ section .nav-bar .home{
     font-size: 20px;
     font-weight: 700;
     height: 30px;
+    align-content: center;
 }
 
 section .nav-bar .nav-opt{
